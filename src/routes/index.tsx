@@ -9,10 +9,10 @@ import resume from "@/assets/resume.pdf.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
-    { title: "Thandolwethu Sibiya | Aspiring Software Engineer" },
-    { name: "description", content: "Meet Thandolwethu Sibiya: an aspiring software engineer with a foundation in metallurgy and materials engineering. Explore skills, qualifications, and the journey into technology." },
-    { property: "og:title", content: "Thandolwethu Sibiya | Aspiring Software Engineer" },
-    { property: "og:description", content: "An engineering mind. A builder’s curiosity. Discover Thandolwethu’s work, skills, and journey into technology." },
+    { title: "Thandolwethu Sibiya | Aspiring Chief Information Officer" },
+    { name: "description", content: "Meet Thandolwethu Sibiya: an aspiring Chief Information Officer with a foundation in metallurgy and materials engineering. Explore skills, qualifications, and the journey into technology." },
+    { property: "og:title", content: "Thandolwethu Sibiya | Aspiring Chief Information Officer" },
+    { property: "og:description", content: "An engineering mind. A builder’s curiosity. Discover Thandolwethu’s work, skills, and journey toward technology leadership." },
     { property: "og:type", content: "website" },
     { name: "twitter:card", content: "summary_large_image" },
   ] }),
@@ -51,8 +51,8 @@ function Index() {
           <div className="availability"><span className="status-dot" /><span>OPEN TO OPPORTUNITIES</span></div>
           <p className="eyebrow mt-7 text-muted-foreground">Engineering mind. Builder’s curiosity.</p>
           <h1 className="hero-title">Thandolwethu<br /><span className="text-primary">Sibiya.</span></h1>
-          <h2 className="text-base md:text-lg font-medium">Aspiring Software Engineer <span className="text-muted-foreground mx-1">/</span> Tech Professional</h2>
-          <p className="hero-description mt-4">From understanding materials to exploring code. I bring an engineering mindset, a love for problem-solving, and the drive to build things that make a difference.</p>
+          <h2 className="text-base md:text-lg font-medium">Aspiring Chief Information Officer <span className="text-muted-foreground mx-1">/</span> Tech Professional</h2>
+          <p className="hero-description mt-4">From understanding materials to exploring code. I bring an engineering mindset, a love for problem-solving, the drive to build things that make a difference, strong communication skills and a desire to find an intersection between tech and engineering.</p>
           <div className="mt-7 flex flex-wrap gap-3"><Button asChild className="h-12 px-5 text-xs"><a href={resume.url} download="Thandolwethu-Sibiya-Resume.pdf" target="_blank" rel="noopener noreferrer"><ArrowDownToLine /> Download résumé</a></Button><Button asChild variant="outline" className="h-12 px-5 text-xs"><a href="#contact">Contact me <ArrowUpRight /></a></Button></div>
           <div className="hero-bottom"><div className="flex items-center gap-6"><SocialLinks /><span className="h-4 border-l border-border" /><span className="hidden sm:inline-flex gap-2 items-center text-[10px] text-muted-foreground"><MapPin size={13} /> Johannesburg, South Africa</span></div><a href="#about" className="flex items-center gap-3 text-[10px] text-muted-foreground">SCROLL TO EXPLORE <ArrowDown size={15} /></a></div>
         </div>
