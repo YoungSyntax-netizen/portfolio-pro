@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { ArrowDown, ArrowDownToLine, ArrowUpRight, Code2, Terminal, Wrench, Users, MapPin, GraduationCap, ShieldCheck, Menu, X, Heart, MoveUpRight } from "lucide-react";
+import { ArrowDown, ArrowDownToLine, ArrowUpRight, Code2, Terminal, Wrench, Users, MapPin, GraduationCap, ShieldCheck, Menu, X, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { PortfolioContact, SocialLinks } from "@/components/portfolio-contact";
 import { PortfolioProjects } from "@/components/portfolio-projects";
