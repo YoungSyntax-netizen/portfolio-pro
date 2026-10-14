@@ -211,8 +211,8 @@ a:focus-visible { outline: 2px solid var(--ring); outline-offset: 5px; }
 @media(max-width: 767px) { .page-width { width: calc(100% - 40px); } .site-header { height: 72px; } .hero { min-height: 830px; } .hero-content { padding-top: 48px; } .hero-title { font-size: 48px; line-height: 1.13; margin-top: 24px; } .hero::after { background: linear-gradient(180deg, var(--background) 0%, transparent 65%, var(--background) 100%); } .hero-description { max-width: 100%; } .hero-bottom { padding-bottom: 22px; } .section-band { padding-block: 64px; } .section-title { font-size: 31px; } .section-heading { flex-direction: column; align-items: start; gap: 15px; margin-bottom: 32px; } .credential-card { padding: 22px; gap: 16px; align-items: start; flex-wrap: wrap; } .credential-icon { width: 55px; height: 55px; } }
 @media(max-width: 767px) {
   .hero { min-height: 700px; }
-  .hero-art { width: 232px; height: 290px; top: 452px; left: 50%; right: auto; transform: translateX(-50%); }
-  .hero-bottom { margin-top: 330px; }
+  .hero-art { width: 232px; height: 290px; top: auto; bottom: 84px; left: 50%; right: auto; transform: translateX(-50%); }
+  .hero-bottom { margin-top: 340px; }
   #about { padding-top: 40px; }
 }
 @media(max-width: 374px) { .hero-title { font-size: 41px; } .hero-social { gap: 14px; } }
