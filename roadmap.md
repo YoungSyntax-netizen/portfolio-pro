@@ -5,3 +5,4 @@
 - [x] Reframe the hero as an aspiring Chief Information Officer, update the elevator pitch, and add the TryHackMe profile link.
 - [x] Replace the "A little about me" copy with the user's own written bio (cybersecurity framing, CISO goal, FNB App Academy, Cisco, TryHackMe, Koi in the Pond).
 - [x] Add Microsoft Defender XDR to the Tools & DevOps skills and a Google AI Essentials card to Certifications; confirm the Google issue date and credential link with the user.
+- [x] Replace the home page decorative image with the user's uploaded black-and-white portrait, framed on desktop/tablet and centered below the buttons on phones.
