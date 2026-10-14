@@ -164,7 +164,7 @@ a:focus-visible { outline: 2px solid var(--ring); outline-offset: 5px; }
 .nav-link.active::after { content: ''; display: block; margin: 7px auto -9px; width: 4px; height: 4px; border-radius: 50%; background: var(--primary); }
 .brand-mark { font-family: var(--font-display); font-size: 27px; font-weight: 700; }
 .hero { position: relative; isolation: isolate; min-height: 700px; overflow: hidden; }
-.hero-art { position: absolute; right: -80px; top: 36px; width: 970px; height: 650px; object-fit: cover; z-index: -2; }
+.hero-art { position: absolute; top: 96px; right: max(32px, calc((100vw - 1184px) / 2 + 8px)); width: 416px; height: 520px; object-fit: cover; object-position: center 18%; border: 1px solid var(--border); border-radius: 8px; z-index: 0; box-shadow: 0 32px 70px color-mix(in oklch, var(--background) 55%, transparent); }
 .hero::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, var(--background) 0%, color-mix(in oklch, var(--background) 96%, transparent) 25%, color-mix(in oklch, var(--background) 15%, transparent) 61%, transparent 100%), linear-gradient(0deg, var(--background), transparent 24%); }
 .hero-content { padding-top: 90px; position: relative; }
 .eyebrow { font-family: var(--font-display); font-size: 11px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; }
@@ -207,13 +207,12 @@ a:focus-visible { outline: 2px solid var(--ring); outline-offset: 5px; }
 .footer { padding-block: 26px; border-top: 1px solid var(--border); }
 .reveal { animation: fade-up 650ms both; }
 @keyframes fade-up { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-@media(min-width: 1500px) { .hero-art { right: calc((100vw - 1360px) / 2 - 80px); } }
-@media(max-width: 1024px) { .page-width { width: calc(100% - 64px); } .hero-title { font-size: 64px; } .hero-art { right: -240px; opacity: 0.85; } .hero { min-height: 690px; } }
-@media(max-width: 767px) { .page-width { width: calc(100% - 40px); } .site-header { height: 72px; } .hero { min-height: 830px; } .hero-content { padding-top: 48px; } .hero-title { font-size: 48px; line-height: 1.13; margin-top: 24px; } .hero-art { width: 620px; height: 420px; top: 420px; right: -100px; opacity: 0.8; } .hero::after { background: linear-gradient(180deg, var(--background) 0%, transparent 65%, var(--background) 100%); } .hero-description { max-width: 100%; } .hero-bottom { margin-top: 330px; padding-bottom: 22px; } .section-band { padding-block: 64px; } .section-title { font-size: 31px; } .section-heading { flex-direction: column; align-items: start; gap: 15px; margin-bottom: 32px; } .credential-card { padding: 22px; gap: 16px; align-items: start; flex-wrap: wrap; } .credential-icon { width: 55px; height: 55px; } }
+@media(max-width: 1024px) { .page-width { width: calc(100% - 64px); } .hero-title { font-size: 60px; } .hero-art { width: 292px; height: 365px; top: 104px; right: 24px; } .hero { min-height: 690px; } }
+@media(max-width: 767px) { .page-width { width: calc(100% - 40px); } .site-header { height: 72px; } .hero { min-height: 830px; } .hero-content { padding-top: 48px; } .hero-title { font-size: 48px; line-height: 1.13; margin-top: 24px; } .hero::after { background: linear-gradient(180deg, var(--background) 0%, transparent 65%, var(--background) 100%); } .hero-description { max-width: 100%; } .hero-bottom { padding-bottom: 22px; } .section-band { padding-block: 64px; } .section-title { font-size: 31px; } .section-heading { flex-direction: column; align-items: start; gap: 15px; margin-bottom: 32px; } .credential-card { padding: 22px; gap: 16px; align-items: start; flex-wrap: wrap; } .credential-icon { width: 55px; height: 55px; } }
 @media(max-width: 767px) {
   .hero { min-height: 700px; }
-  .hero-art { width: 470px; height: 315px; top: 405px; right: -45px; }
-  .hero-bottom { margin-top: 170px; }
+  .hero-art { width: 232px; height: 290px; top: 452px; left: 50%; right: auto; transform: translateX(-50%); }
+  .hero-bottom { margin-top: 330px; }
   #about { padding-top: 40px; }
 }
 @media(max-width: 374px) { .hero-title { font-size: 41px; } .hero-social { gap: 14px; } }

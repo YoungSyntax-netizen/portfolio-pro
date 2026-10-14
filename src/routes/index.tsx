@@ -4,7 +4,7 @@ import { ArrowDown, ArrowDownToLine, ArrowUpRight, Code2, Terminal, Wrench, User
 import { Button } from "@/components/ui/button";
 import { PortfolioContact, SocialLinks } from "@/components/portfolio-contact";
 import { PortfolioProjects } from "@/components/portfolio-projects";
-import heroImage from "@/assets/chrome-knot.jpg";
+import portrait from "@/assets/portrait.jpg.asset.json";
 import resume from "@/assets/resume.pdf.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -46,7 +46,7 @@ function Index() {
     </header>
     <main>
       <section id="home" className="hero">
-        <img src={heroImage} alt="Interconnected polished metal sculpture, reflecting engineering and creative problem-solving" className="hero-art" width={1536} height={1024} fetchPriority="high" />
+        <img src={portrait.url} alt="Thandolwethu Sibiya seated and looking toward the camera in a black-and-white portrait" className="hero-art" width={1080} height={1350} fetchPriority="high" />
         <div className="page-width hero-content reveal">
           <div className="availability"><span className="status-dot" /><span>OPEN TO OPPORTUNITIES</span></div>
           <p className="eyebrow mt-7 text-muted-foreground">Engineering mind. Builder’s curiosity.</p>
