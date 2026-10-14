@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { ArrowUpRight, Check, Github, Linkedin, Mail, Send } from "lucide-react";
+import { ArrowUpRight, Check, Github, Linkedin, Mail, Send, ShieldCheck } from "lucide-react";
 import { z } from "zod";
 import { Button } from "@/components/ui/button";
 
@@ -7,6 +7,7 @@ export const socialLinks = {
   email: "sthandolwethu30@gmail.com",
   linkedin: "https://www.linkedin.com/in/thandolwethu-sibiya-0047b222b",
   github: "https://github.com/YoungSyntax-netizen",
+  tryhackme: "https://tryhackme.com/p/Sthandolwethu30",
 };
 
 const contactSchema = z.object({
@@ -19,6 +20,7 @@ export function SocialLinks() {
   return <div className="hero-social">
     <a href={socialLinks.github} target="_blank" rel="noopener noreferrer" className="social-link" aria-label="GitHub" title="GitHub"><Github size={18} /></a>
     <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn" title="LinkedIn"><Linkedin size={18} /></a>
+    <a href={socialLinks.tryhackme} target="_blank" rel="noopener noreferrer" className="social-link" aria-label="TryHackMe profile: Sthandolwethu30" title="TryHackMe"><ShieldCheck size={18} /></a>
     <a href={`mailto:${socialLinks.email}`} className="social-link" aria-label="Email Thandolwethu" title="Email"><Mail size={18} /></a>
   </div>;
 }
@@ -46,6 +48,7 @@ export function PortfolioContact() {
         <div className="mt-7 flex gap-6">
           <a className="social-link inline-flex gap-2 text-xs" href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer"><Linkedin size={15} />LinkedIn<ArrowUpRight size={13} /></a>
           <a className="social-link inline-flex gap-2 text-xs" href={socialLinks.github} target="_blank" rel="noopener noreferrer"><Github size={15} />GitHub<ArrowUpRight size={13} /></a>
+          <a className="social-link inline-flex gap-2 text-xs" href={socialLinks.tryhackme} target="_blank" rel="noopener noreferrer"><ShieldCheck size={15} />TryHackMe<ArrowUpRight size={13} /></a>
         </div>
       </div>
       <form onSubmit={onSubmit} className="space-y-5">
