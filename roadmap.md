@@ -1,4 +1,4 @@
 # Portfolio roadmap
-- [ ] Build dark portfolio using verified CV details and public projects.
-- [ ] Add résumé download, contact form UI, and social links.
-- [ ] Verify desktop/mobile navigation and contact flow.
+- [x] Build dark portfolio using verified CV details; clearly label future project ideas because GitHub has no public repositories.
+- [x] Add résumé download, validated email-draft contact form UI, and social links.
+- [x] Verify desktop/mobile navigation, résumé file, and contact flow.
