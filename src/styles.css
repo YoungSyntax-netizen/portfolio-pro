@@ -212,7 +212,7 @@ a:focus-visible { outline: 2px solid var(--ring); outline-offset: 5px; }
 @media(max-width: 767px) {
   .hero { min-height: 700px; }
   .hero-art { width: 232px; height: 290px; top: auto; bottom: 84px; left: 50%; right: auto; transform: translateX(-50%); }
-  .hero-bottom { margin-top: 340px; }
+  .hero-bottom { margin-top: 360px; }
   #about { padding-top: 40px; }
 }
 @media(max-width: 374px) { .hero-title { font-size: 41px; } .hero-social { gap: 14px; } }
