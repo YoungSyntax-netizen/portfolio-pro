@@ -6,3 +6,6 @@
 - [x] Replace the "A little about me" copy with the user's own written bio (cybersecurity framing, CISO goal, FNB App Academy, Cisco, TryHackMe, Koi in the Pond).
 - [x] Add Microsoft Defender XDR to the Tools & DevOps skills and a Google AI Essentials card to Certifications; confirm the Google issue date and credential link with the user.
 - [x] Replace the home page decorative image with the user's uploaded black-and-white portrait, framed on desktop/tablet and centered below the buttons on phones.
+- [x] Rebuild Selected Work as TryHackMe SOC Alert Triage 1, Microsoft XDR, Mathematics Tutoring, and remove the "Explore GitHub" button from that heading.
+- [x] Package the clean source code for download and give the user the GitHub connect steps.
+- [ ] Waiting on the user: Google AI Essentials issue date and credential link; whether the hero headline should say Chief Information Security Officer; "Braamontein" vs "Braamfontein"; confirmation that the TryHackMe profile link opens.
